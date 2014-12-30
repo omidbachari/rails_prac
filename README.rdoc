@@ -1,3 +1,14 @@
 ## Practice App
 
 Implementing the badges.
+
+
+Notes:
+
+- Continuous integration (Travis CI)
+Ensure that every commit is not going to result in test failures.
+- Do not 'break the build.'
+- Automated testing gives us confidence in the code. It's good to ensure that all new code maintains a green test suite. In other words, all tests pass.
+
+-Add .travis.yml file.
+-Specify language, specify ruby version, 
